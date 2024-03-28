@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+notebook = "==6.4.8"
+jupyter-server = "*"
+traitlets = "==5.9.0"
+matplotlib = "*"
+cartopy = "*"
+geopandas = "*"
+folium = "*"
+mapclassify = "*"
+plotly = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
